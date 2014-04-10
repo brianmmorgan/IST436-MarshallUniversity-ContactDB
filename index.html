@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <title>This page will suck</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    </head>
+    
+    <body>
+        <div data-role='page' id='homePage'>
+            <div data-role='header' data-position='fixed'>
+                <h1>Welcome to GitHub</h1>
+            </div>
+            <div data-role='content'>
+                <ul data-role='listview' data-inset='true'
+                    data-split-icon='delete'>
+                    <li data-role='list-divider'>College Teams</li>
+                    <li><a href='http://www.herdzone.com/'>
+                        <img src='images/Herd.png' class='ui-li-icon' />
+                        Marshall Thundering Herd <span class='ui-li-count'>5</span></a>
+                        
+                        <a href='#'>#</a>
+                    </li>
+                    <li><a href='http://www.und.edu'>
+                        <img src='images/nd.jpg' class='ui-li-icon'/>
+                        Notre Dame Fighting Irish</a>
+                        <span class='ui-li-count'>2</span>
+                    </li>
+                    <li data-role='list-divider'>Pro Teams</li>
+                    <li><img src='images/redsox.gif' class='ui-li-icon' />Boston Red Sox</li>
+                    <li>Dallas Cowboys</li>
+                </ul>
+                
+                <ul data-role='listview' data-inset='true'
+                    data-autodividers='true' data-filter='true'
+                    data-filter-placeholder='FRUITS!' data-filter-reveal='true'>
+                    <li>Apples</li>
+                    <li>Apricots</li>
+                    <li>Bananas</li>
+                    <li>Cherry</li>
+                    <li>Kiwi</li>
+                    <li>Oranges</li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <p>Footer Text</p>
+            </div>
+        </div>
+    </body>
+</html>
